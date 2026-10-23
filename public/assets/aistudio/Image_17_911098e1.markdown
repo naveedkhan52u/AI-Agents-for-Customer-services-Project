@@ -1,0 +1,238 @@
+---
+name: Orken AI Conversational Engine
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf5'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d3e4fe'
+  on-surface: '#0b1c30'
+  on-surface-variant: '#464555'
+  inverse-surface: '#213145'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#777587'
+  outline-variant: '#c7c4d8'
+  surface-tint: '#4d44e3'
+  primary: '#3525cd'
+  on-primary: '#ffffff'
+  primary-container: '#4f46e5'
+  on-primary-container: '#dad7ff'
+  inverse-primary: '#c3c0ff'
+  secondary: '#565e74'
+  on-secondary: '#ffffff'
+  secondary-container: '#dae2fd'
+  on-secondary-container: '#5c647a'
+  tertiary: '#00534a'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#006d62'
+  on-tertiary-container: '#69f1de'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#e2dfff'
+  primary-fixed-dim: '#c3c0ff'
+  on-primary-fixed: '#0f0069'
+  on-primary-fixed-variant: '#3323cc'
+  secondary-fixed: '#dae2fd'
+  secondary-fixed-dim: '#bec6e0'
+  on-secondary-fixed: '#131b2e'
+  on-secondary-fixed-variant: '#3f465c'
+  tertiary-fixed: '#71f8e4'
+  tertiary-fixed-dim: '#4fdbc8'
+  on-tertiary-fixed: '#00201c'
+  on-tertiary-fixed-variant: '#005048'
+  background: '#f8f9ff'
+  on-background: '#0b1c30'
+  surface-variant: '#d3e4fe'
+typography:
+  display:
+    fontFamily: Inter
+    fontSize: 3.5rem
+    fontWeight: '700'
+    lineHeight: 4.25rem
+    letterSpacing: -0.03em
+  display-mobile:
+    fontFamily: Inter
+    fontSize: 2.25rem
+    fontWeight: '700'
+    lineHeight: 2.75rem
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 2.5rem
+    fontWeight: '700'
+    lineHeight: 3rem
+    letterSpacing: -0.025em
+  headline-lg-mobile:
+    fontFamily: Inter
+    fontSize: 1.75rem
+    fontWeight: '600'
+    lineHeight: 2.25rem
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 1.75rem
+    fontWeight: '600'
+    lineHeight: 2.25rem
+    letterSpacing: -0.02em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 1.25rem
+    fontWeight: '600'
+    lineHeight: 1.75rem
+    letterSpacing: -0.015em
+  title-md:
+    fontFamily: Inter
+    fontSize: 1rem
+    fontWeight: '600'
+    lineHeight: 1.5rem
+    letterSpacing: -0.01em
+  title-sm:
+    fontFamily: Inter
+    fontSize: 0.875rem
+    fontWeight: '600'
+    lineHeight: 1.25rem
+    letterSpacing: 0em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 1.125rem
+    fontWeight: '400'
+    lineHeight: 1.75rem
+    letterSpacing: -0.01em
+  body-md:
+    fontFamily: Inter
+    fontSize: 0.9375rem
+    fontWeight: '400'
+    lineHeight: 1.5rem
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 0.8125rem
+    fontWeight: '400'
+    lineHeight: 1.25rem
+    letterSpacing: 0em
+  label-md:
+    fontFamily: Inter
+    fontSize: 0.75rem
+    fontWeight: '600'
+    lineHeight: 1rem
+    letterSpacing: 0.04em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 0.6875rem
+    fontWeight: '500'
+    lineHeight: 0.875rem
+    letterSpacing: 0.05em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 1rem
+  margin: 2rem
+  margin-sm: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+The brand personality centers on intelligence, high operational speed, precision, and architectural clarity. The platform serves growth teams, sales executives, and product marketers seeking automated lead qualification and conversational customer engagement. The interface balances high utility with refined polish, steering clear of whimsical consumer patterns in favor of structured data density, elevated typographic precision, and authoritative confidence.
+
+The design movement applied is **Modern Corporate & Clean Minimal SaaS**. This style relies on crisp slate surfaces, disciplined white space, razor-thin structural borders (`#E2E8F0`), and intentional high-chroma accents. Active states and conversational insights leverage deep indigo blue (`#4F46E5`), conversion metrics resolve into vibrant teal (`#14B8A6`), and deep navy typography (`#0F172A`) commands high contrast. Ambient light diffusion and restrained micro-interactions convey a lightweight, enterprise-grade software environment.
+
+## Colors
+
+The color palette is architected for analytical clarity and conversion visibility:
+
+- **Primary (`#4F46E5`)**: Deep Indigo Blue anchors primary interactive elements, selected navigation states, pipeline visualization nodes, and high-priority action buttons.
+- **Secondary (`#0F172A`)**: Dark Navy functions as the grounding color for structural sidebars, high-contrast badges, primary text, and prominent section titles.
+- **Tertiary / Accent (`#14B8A6`)**: Vibrant Teal highlights lead conversion events, pipeline wins, active chatbot live signals, and positive delta values.
+- **Neutral (`#64748B`)**: Slate gray manages secondary captions, structural tab states, muted counters, and table headers.
+- **Canvas & Surface Palette**:
+  - Global Canvas: `#F8FAFC`
+  - Elevated Cards / Containers: `#FFFFFF`
+  - Subtle Borders & Dividers: `#E2E8F0`
+  - Input Focus & Active Glows: `rgba(79, 70, 229, 0.15)`
+- **Feedback Semantics**:
+  - Positive/Success: `#16A34A`
+  - Warning/Pending: `#F59E0B`
+  - Destructive/Error: `#DC2626`
+
+## Typography
+
+The type hierarchy is powered exclusively by **Inter** to ensure geometric discipline and maximum legibility across complex lead-capture tables, real-time messaging logs, and conversational flow builders. 
+
+- Large display sizes employ negative tracking (`-0.025em` to `-0.03em`) and high weights to provide impactful visual anchors.
+- Body levels maintain standard letter spacing with balanced line heights to facilitate prolonged parsing of visitor dialogues and CRM sync feeds.
+- Analytical labels, metric indicators, and status tags utilize uppercase or sentence-case micro-tracking (`0.04em` to `0.05em`) in semi-bold weights (`600` or `500`) for quick scanning.
+
+## Layout & Spacing
+
+The layout is built upon an adaptive 12-column fluid grid system paired with strict 8-point base spatial rhythms:
+
+- **Desktop (1280px+)**: 12-column grid, `margin` of `2rem` (32px), `gutter` of `1.5rem` (24px). Sidebar navigations remain fixed at 260px or collapsed at 72px, with analytics workspaces dynamically filling remaining horizontal space.
+- **Tablet (768px - 1279px)**: 8-column layout with 24px margins and 16px gutters (`gutter-sm`). Horizontal data cards switch to 2x2 grid patterns; tables adopt horizontal scroll containers with pinned identification columns.
+- **Mobile (Under 768px)**: 4-column layout with `margin-sm` of `1rem` (16px) and `gutter-sm` of `1rem` (16px). Cards stack into vertical streams; multi-step bot builders convert into bottom-sheet modals.
+- **Internal Spacing Rules**: Component padding adheres strictly to `space-xs` (4px), `space-sm` (8px), `space-md` (16px), `space-lg` (24px), and `space-xl` (40px). Dense metric cards utilize `space-md` inner padding, while major container sections leverage `space-lg`.
+
+## Elevation & Depth
+
+Visual hierarchy is maintained through subtle ambient shadowing paired with crisp, low-contrast border boundaries (`#E2E8F0`). Surfaces do not appear visually detached; instead, they sit cleanly above the `#F8FAFC` slate canvas:
+
+- **Base Layer (Canvas)**: `#F8FAFC`, non-elevated.
+- **Layer 1 (Cards, Modules, Table Containers)**: Background `#FFFFFF`, 1px solid border `#E2E8F0`, shadow: `0px 1px 3px rgba(15, 23, 42, 0.05), 0px 1px 2px rgba(15, 23, 42, 0.03)`.
+- **Layer 2 (Dropdowns, Flyouts, Popovers)**: Background `#FFFFFF`, 1px solid border `#E2E8F0`, shadow: `0px 4px 6px -1px rgba(15, 23, 42, 0.08), 0px 2px 4px -2px rgba(15, 23, 42, 0.04)`.
+- **Layer 3 (Modals, Bot Simulator Preview Panels)**: Background `#FFFFFF`, 1px solid border `#CBD5E1`, shadow: `0px 20px 25px -5px rgba(15, 23, 42, 0.1), 0px 8px 10px -6px rgba(15, 23, 42, 0.04)`.
+- **Interactive Hover Elevation**: Interactive analytical cards elevate on cursor focus by increasing ambient spread to `0px 10px 15px -3px rgba(15, 23, 42, 0.06)` while retaining border definition.
+
+## Shapes
+
+The design system employs **Roundedness Level 2 (0.5rem base)**, creating a friendly yet disciplined SaaS atmosphere:
+
+- **Cards & Primary Modules**: Standard cards use `rounded-lg` (1rem / 16px) to encapsulate complex dashboard feeds and dialogue charts cleanly.
+- **Buttons, Inputs & Controls**: Standard elements utilize `0.5rem` (8px) corner curvature, ensuring clean alignment alongside form inputs and table cells.
+- **Badges & Conversion Chips**: Fully pill-shaped (`9999px`) border-radii for quick visual categorization of lead temperatures (Hot, Warm, Cold) and bot statuses.
+- **Chat Simulation Bubbles**: Conversational containers employ asymmetric curvature: user bubbles use `1rem` on top and left corners with `0.25rem` on bottom-right; bot responses use `1rem` on top and right with `0.25rem` on bottom-left.
+
+## Components
+
+### Buttons
+- **Primary**: Background `#4F46E5`, text `#FFFFFF`, font-weight 600, padding `0.625rem 1.25rem`, radius `0.5rem`. Hover: `#4338CA`. Active: scale transform down to 0.98.
+- **Secondary**: Background `#0F172A`, text `#FFFFFF`, radius `0.5rem`. Hover: `#1E293B`.
+- **Outline / Ghost**: Background transparent, border 1px solid `#E2E8F0`, text `#0F172A`. Hover: background `#F1F5F9`.
+
+### Badges & Chips
+- **Conversion / Metric Badge**: Pill-radius (`9999px`), padding `0.25rem 0.625rem`, font-weight 600, font-size `0.75rem`.
+  - Teal Success/Conversion: Background `#CCFBF1`, text `#0F766E`.
+  - Indigo Status: Background `#EEF2FF`, text `#4338CA`.
+  - Alert/Urgent Lead: Background `#FEE2E2`, text `#B91C1C`.
+
+### Form Fields & Inputs
+- **Base Input**: Background `#FFFFFF`, border 1px solid `#E2E8F0`, corner radius `0.5rem`, padding `0.625rem 0.875rem`, placeholder text `#94A3B8`.
+- **Focus State**: Border color `#4F46E5`, box-shadow `0 0 0 3px rgba(79, 70, 229, 0.15)`.
+
+### Cards & Analytical Panels
+- **Structure**: Surface `#FFFFFF`, border 1px solid `#E2E8F0`, border-radius `1rem` (16px), padding `1.5rem`.
+- **Header**: Flex container with primary heading in `#0F172A` and Lucide-style 16px line icon container with background `#F8FAFC`.
+
+### Navigation Tabs
+- **Segmented Controls**: Background `#F1F5F9`, border-radius `0.5rem`, inner padding `0.25rem`. Active tab: Background `#FFFFFF`, text `#0F172A`, soft shadow `0 1px 2px rgba(0,0,0,0.05)`, border-radius `0.375rem`.
+
+### Tables (Lead Log & Conversion Streams)
+- **Header**: Background `#F8FAFC`, uppercase `0.6875rem` text `#64748B`, tracking `0.05em`, border-bottom 1px solid `#E2E8F0`.
+- **Rows**: Alternating hover state with `#F8FAFC`, bottom border 1px solid `#F1F5F9`, vertical cell padding `0.875rem 1rem`.
+
+### Chatbot Widget Preview Panel
+- Embedded conversational viewport framed in a 16px rounded surface with light ambient shadow (`0 10px 25px -5px rgba(15, 23, 42, 0.08)`), containing bot avatar, online status indicator (Teal `#14B8A6`), and alternating message threads.

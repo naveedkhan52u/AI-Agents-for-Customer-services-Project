@@ -1,0 +1,6 @@
+{
+  "name": "Orken AI Conversational Engine",
+  "description": "Enterprise AI agents for automated customer support and high-precision lead capture with real-time analytics, conversation logs, and knowledge base sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
